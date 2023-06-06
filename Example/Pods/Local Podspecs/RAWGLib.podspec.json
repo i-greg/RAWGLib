@@ -1,0 +1,22 @@
+{
+  "name": "RAWGLib",
+  "version": "0.1.0",
+  "summary": "A short description of RAWGLib.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/i-greg/RAWGLib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "i-greg": "gregoriadisioannis@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/i-greg/RAWGLib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "RAWGLib/Classes/**/*"
+}

@@ -1,0 +1,6 @@
+framework module RAWGLib {
+  umbrella header "RAWGLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

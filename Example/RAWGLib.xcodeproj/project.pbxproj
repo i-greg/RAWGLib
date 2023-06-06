@@ -42,11 +42,11 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		7A486ACD3C26EEEF1E62E2C9 /* Pods-RAWGLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RAWGLib_Tests.debug.xcconfig"; path = "Target Support Files/Pods-RAWGLib_Tests/Pods-RAWGLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		7FCA4A69C7973378E4AC1CF3 /* Pods_RAWGLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RAWGLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		974DFC09FD573EAAE64F86BD /* RAWGLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = RAWGLib.podspec; path = ../RAWGLib.podspec; sourceTree = "<group>"; };
+		974DFC09FD573EAAE64F86BD /* RAWGLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RAWGLib.podspec; path = ../RAWGLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A24A954E352C97594895DEA7 /* Pods-RAWGLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RAWGLib_Tests.release.xcconfig"; path = "Target Support Files/Pods-RAWGLib_Tests/Pods-RAWGLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		B349E3089A3F6822203F8D7C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B349E3089A3F6822203F8D7C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E3CD80D9A915E56B2AA6653D /* Pods_RAWGLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RAWGLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE403B1D443ABA21CFDD187C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		EE403B1D443ABA21CFDD187C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,7 +147,6 @@
 				7A486ACD3C26EEEF1E62E2C9 /* Pods-RAWGLib_Tests.debug.xcconfig */,
 				A24A954E352C97594895DEA7 /* Pods-RAWGLib_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
